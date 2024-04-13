@@ -1,0 +1,1 @@
+Invoking command in '/home/saifhs/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/build/urg_node2 -- -j4 -l4

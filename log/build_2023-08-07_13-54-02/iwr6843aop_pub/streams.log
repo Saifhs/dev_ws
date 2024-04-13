@@ -1,0 +1,23 @@
+[0.580s] Invoking command in '/home/saifhs/dev_ws/build/iwr6843aop_pub': PYTHONPATH=/home/saifhs/dev_ws/build/iwr6843aop_pub/prefix_override:/home/saifhs/dev_ws/install/iwr6843aop_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saifhs/dev_ws/build/iwr6843aop_pub/build --no-deps install_data
+[0.757s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.757s]   warnings.warn(
+[0.775s] running develop
+[0.775s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.776s]   warnings.warn(
+[0.776s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.776s]   warnings.warn(
+[0.900s] running egg_info
+[0.900s] writing iwr6843aop_pub.egg-info/PKG-INFO
+[0.900s] writing dependency_links to iwr6843aop_pub.egg-info/dependency_links.txt
+[0.901s] writing entry points to iwr6843aop_pub.egg-info/entry_points.txt
+[0.901s] writing requirements to iwr6843aop_pub.egg-info/requires.txt
+[0.902s] writing top-level names to iwr6843aop_pub.egg-info/top_level.txt
+[0.909s] reading manifest file 'iwr6843aop_pub.egg-info/SOURCES.txt'
+[0.912s] writing manifest file 'iwr6843aop_pub.egg-info/SOURCES.txt'
+[0.914s] running build_ext
+[0.914s] Creating /home/saifhs/dev_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop-pub.egg-link (link to .)
+[0.915s] Installing pcl_pub script to /home/saifhs/dev_ws/install/iwr6843aop_pub/lib/iwr6843aop_pub
+[0.915s] 
+[0.915s] Installed /home/saifhs/dev_ws/build/iwr6843aop_pub
+[0.915s] running install_data
+[0.937s] Invoked command in '/home/saifhs/dev_ws/build/iwr6843aop_pub' returned '0': PYTHONPATH=/home/saifhs/dev_ws/build/iwr6843aop_pub/prefix_override:/home/saifhs/dev_ws/install/iwr6843aop_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saifhs/dev_ws/build/iwr6843aop_pub/build --no-deps install_data

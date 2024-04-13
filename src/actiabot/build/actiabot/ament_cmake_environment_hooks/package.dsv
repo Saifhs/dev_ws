@@ -1,0 +1,4 @@
+source;share/actiabot/local_setup.bash
+source;share/actiabot/local_setup.dsv
+source;share/actiabot/local_setup.sh
+source;share/actiabot/local_setup.zsh

@@ -1,0 +1,35 @@
+[0.293s] Invoking command in '/home/saifhs/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/build/urg_node2 -- -j4 -l4
+[0.436s] [  5%] [32mBuilding CXX object CMakeFiles/urg_node2_node.dir/rclcpp_components/node_main_urg_node2_node.cpp.o[0m
+[0.469s] [ 10%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o[0m
+[0.480s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.487s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.587s] [01m[K/home/saifhs/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c:1349:8:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[0.587s]  1349 | static [01;35m[Kconst[m[K int receive_II_command_response(urg_t *urg,
+[0.587s]       |        [01;35m[K^~~~~[m[K
+[0.715s] [ 25%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o[0m
+[0.793s] [01m[K/home/saifhs/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c:[m[K In function ‘[01m[Kurg_delay[m[K’:
+[0.794s] [01m[K/home/saifhs/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c:224:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kusleep[m[K’; did you mean ‘[01m[Kurg_sleep[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[0.794s]   224 |     [01;35m[Kusleep[m[K(1000 * delay_msec);
+[0.794s]       |     [01;35m[K^~~~~~[m[K
+[0.794s]       |     [32m[Kurg_sleep[m[K
+[0.880s] [ 30%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o[0m
+[0.971s] [ 35%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o[0m
+[1.059s] [ 40%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o[0m
+[1.143s] [ 45%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o[0m
+[1.221s] [ 50%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o[0m
+[1.296s] [ 55%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o[0m
+[1.390s] [ 60%] [32m[1mLinking C shared library liburg_c.so[0m
+[1.463s] [ 60%] Built target urg_c
+[1.534s] [ 65%] [32mBuilding CXX object CMakeFiles/urg_node2.dir/src/urg_node2.cpp.o[0m
+[1.643s] [ 70%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.694s] [ 70%] Built target gtest_main
+[4.592s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.691s] [ 75%] Built target gtest
+[4.770s] [ 80%] [32mBuilding CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o[0m
+[4.773s] [ 85%] [32mBuilding CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o[0m
+[5.208s] [ 90%] [32m[1mLinking CXX executable urg_node2_node[0m
+[5.551s] [ 90%] Built target urg_node2_node
+[9.926s] [ 95%] [32m[1mLinking CXX shared library liburg_node2.so[0m
+[10.429s] [ 95%] Built target urg_node2
+[19.104s] [100%] [32m[1mLinking CXX executable urg_node2_test[0m
+[20.061s] [100%] Built target urg_node2_test

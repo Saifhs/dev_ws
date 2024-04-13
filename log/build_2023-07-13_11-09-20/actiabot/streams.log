@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/saifhs/dev_ws/build/actiabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/build/actiabot -- -j4 -l4
+[0.049s] Invoked command in '/home/saifhs/dev_ws/build/actiabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/build/actiabot -- -j4 -l4
+[0.131s] Invoking command in '/home/saifhs/dev_ws/build/actiabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saifhs/dev_ws/build/actiabot
+[0.139s] -- Install configuration: ""
+[0.140s] -- Execute custom install script
+[0.140s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/config/empty.yaml
+[0.140s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/description/robot.urdf.xacro
+[0.140s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/launch/rsp.launch.py
+[0.141s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/worlds/empty.world
+[0.141s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/ament_index/resource_index/package_run_dependencies/actiabot
+[0.141s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/ament_index/resource_index/parent_prefix_path/actiabot
+[0.141s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/environment/ament_prefix_path.sh
+[0.141s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/environment/ament_prefix_path.dsv
+[0.141s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/environment/path.sh
+[0.141s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/environment/path.dsv
+[0.141s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/local_setup.bash
+[0.141s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/local_setup.sh
+[0.142s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/local_setup.zsh
+[0.142s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/local_setup.dsv
+[0.142s] -- Symlinking: /home/saifhs/dev_ws/install/actiabot/share/actiabot/package.dsv
+[0.153s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/ament_index/resource_index/packages/actiabot
+[0.153s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/cmake/actiabotConfig.cmake
+[0.153s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/cmake/actiabotConfig-version.cmake
+[0.153s] -- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/package.xml
+[0.156s] Invoked command in '/home/saifhs/dev_ws/build/actiabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saifhs/dev_ws/build/actiabot

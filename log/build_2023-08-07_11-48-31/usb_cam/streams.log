@@ -1,0 +1,30 @@
+[0.292s] Invoking command in '/home/saifhs/dev_ws/build/usb_cam': /usr/bin/cmake /home/saifhs/dev_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/saifhs/dev_ws/install/usb_cam
+[0.307s] -- Searching required modules
+[0.316s] -- Checking for module 'libv4l2'
+[0.337s] --   Found libv4l2, version 1.22.1
+[0.481s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.481s] -- Found libavcodec: 58.134.100
+[0.481s] -- Found libavutil: 56.70.100
+[0.481s] -- Found libswscale: 5.9.100
+[0.481s] -- Found OpenCV: 4.5.4
+[0.481s] -- Found Video4Linux kernel library: 1.22.1
+[0.517s] [31mCMake Error at CMakeLists.txt:31 (find_package):
+[0.517s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.517s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.518s]   CMake did not find one.
+[0.518s] 
+[0.518s]   Could not find a package configuration file provided by "catkin" with any
+[0.518s]   of the following names:
+[0.518s] 
+[0.518s]     catkinConfig.cmake
+[0.519s]     catkin-config.cmake
+[0.519s] 
+[0.519s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.519s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.519s]   provides a separate development package or SDK, be sure it has been
+[0.519s]   installed.
+[0.519s] 
+[0.520s] [0m
+[0.520s] -- Configuring incomplete, errors occurred!
+[0.520s] See also "/home/saifhs/dev_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
+[0.525s] Invoked command in '/home/saifhs/dev_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/saifhs/dev_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/saifhs/dev_ws/install/usb_cam

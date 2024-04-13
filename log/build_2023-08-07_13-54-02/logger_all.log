@@ -1,0 +1,266 @@
+[0.275s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.275s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff81a2e6fb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff81aaefb80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff81aaefb80>>)
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.296s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/saifhs/dev_ws'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/actiabot) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/actiabot) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/actiabot) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/actiabot) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/actiabot) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/actiabot) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/actiabot) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/actiabot) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/actiabot) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/actiabot' with type 'ros.ament_cmake' and name 'actiabot'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/iwr6843aop_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/iwr6843aop_pub) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/iwr6843aop_pub) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/iwr6843aop_pub) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/iwr6843aop_pub) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/iwr6843aop_pub) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/iwr6843aop_pub) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/iwr6843aop_pub) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/iwr6843aop_pub) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iwr6843aop_pub' with type 'ros.ament_python' and name 'iwr6843aop_pub'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node2' with type 'ros.ament_cmake' and name 'urg_node2'
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/saifhs/dev_ws/install
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/saifhs/dev_ws/src/actiabot/install
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'actiabot' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'actiabot' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'actiabot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'actiabot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'actiabot' build argument 'cmake_clean_first' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'actiabot' build argument 'cmake_force_configure' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'actiabot' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'actiabot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'actiabot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'actiabot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saifhs/dev_ws/build/actiabot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saifhs/dev_ws/install/actiabot', 'merge_install': False, 'path': '/home/saifhs/dev_ws/src/actiabot', 'symlink_install': True, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'iwr6843aop_pub' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'iwr6843aop_pub' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'iwr6843aop_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'iwr6843aop_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'iwr6843aop_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'iwr6843aop_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'iwr6843aop_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'iwr6843aop_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'iwr6843aop_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'iwr6843aop_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saifhs/dev_ws/build/iwr6843aop_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saifhs/dev_ws/install/iwr6843aop_pub', 'merge_install': False, 'path': '/home/saifhs/dev_ws/src/iwr6843aop_pub', 'symlink_install': True, 'test_result_base': None}
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saifhs/dev_ws/build/urg_node2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saifhs/dev_ws/install/urg_node2', 'merge_install': False, 'path': '/home/saifhs/dev_ws/src/urg_node2', 'symlink_install': True, 'test_result_base': None}
+[0.420s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saifhs/dev_ws/src/actiabot' with build type 'ament_cmake'
+[0.423s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saifhs/dev_ws/src/actiabot'
+[0.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.437s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saifhs/dev_ws/src/iwr6843aop_pub' with build type 'ament_python'
+[0.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('iwr6843aop_pub', 'ament_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/hook/ament_prefix_path.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/hook/ament_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/hook/ament_prefix_path.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.447s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saifhs/dev_ws/src/urg_node2' with build type 'ament_cmake'
+[0.447s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saifhs/dev_ws/src/urg_node2'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifhs/dev_ws/build/actiabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifhs/dev_ws/install/iwr6843aop_pub:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/build/actiabot -- -j4 -l4
+[0.656s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saifhs/dev_ws/src/iwr6843aop_pub'
+[0.658s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.658s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifhs/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifhs/dev_ws/install/iwr6843aop_pub:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/build/urg_node2 -- -j4 -l4
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifhs/dev_ws/build/actiabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifhs/dev_ws/install/iwr6843aop_pub:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/build/actiabot -- -j4 -l4
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifhs/dev_ws/build/actiabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifhs/dev_ws/install/iwr6843aop_pub:/opt/ros/humble /usr/bin/cmake --install /home/saifhs/dev_ws/build/actiabot
+[0.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(actiabot)
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifhs/dev_ws/build/actiabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifhs/dev_ws/install/iwr6843aop_pub:/opt/ros/humble /usr/bin/cmake --install /home/saifhs/dev_ws/build/actiabot
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot' for CMake module files
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot' for CMake config files
+[0.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('actiabot', 'cmake_prefix_path')
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/actiabot/share/actiabot/hook/cmake_prefix_path.ps1'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifhs/dev_ws/install/actiabot/share/actiabot/hook/cmake_prefix_path.dsv'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/actiabot/share/actiabot/hook/cmake_prefix_path.sh'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot/bin'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot/lib/pkgconfig/actiabot.pc'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot/lib/python3.10/site-packages'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot/bin'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.dsv'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.sh'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.bash'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.zsh'
+[0.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifhs/dev_ws/install/actiabot/share/colcon-core/packages/actiabot)
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifhs/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifhs/dev_ws/install/iwr6843aop_pub:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/build/urg_node2 -- -j4 -l4
+[0.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(actiabot)
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot' for CMake module files
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot' for CMake config files
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('actiabot', 'cmake_prefix_path')
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/actiabot/share/actiabot/hook/cmake_prefix_path.ps1'
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifhs/dev_ws/install/actiabot/share/actiabot/hook/cmake_prefix_path.dsv'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/actiabot/share/actiabot/hook/cmake_prefix_path.sh'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot/bin'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot/lib/pkgconfig/actiabot.pc'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot/lib/python3.10/site-packages'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/actiabot/bin'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.dsv'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.sh'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.bash'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/actiabot/share/actiabot/package.zsh'
+[0.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifhs/dev_ws/install/actiabot/share/colcon-core/packages/actiabot)
+[0.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifhs/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifhs/dev_ws/install/iwr6843aop_pub:/opt/ros/humble /usr/bin/cmake --install /home/saifhs/dev_ws/build/urg_node2
+[0.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifhs/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifhs/dev_ws/install/iwr6843aop_pub:/opt/ros/humble /usr/bin/cmake --install /home/saifhs/dev_ws/build/urg_node2
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2' for CMake module files
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2' for CMake config files
+[0.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/lib'
+[0.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/bin'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/lib/python3.10/site-packages'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/bin'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.sh'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.bash'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
+[0.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifhs/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
+[1.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifhs/dev_ws/build/iwr6843aop_pub': PYTHONPATH=/home/saifhs/dev_ws/build/iwr6843aop_pub/prefix_override:/home/saifhs/dev_ws/install/iwr6843aop_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saifhs/dev_ws/build/iwr6843aop_pub/build --no-deps install_data
+[1.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2' for CMake module files
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2' for CMake config files
+[1.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/lib'
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/bin'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/lib/python3.10/site-packages'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/urg_node2/bin'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.sh'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.bash'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
+[1.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifhs/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
+[1.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('iwr6843aop_pub', 'pythonpath_develop')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/build/iwr6843aop_pub/share/iwr6843aop_pub/hook/pythonpath_develop.ps1'
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifhs/dev_ws/build/iwr6843aop_pub' returned '0': PYTHONPATH=/home/saifhs/dev_ws/build/iwr6843aop_pub/prefix_override:/home/saifhs/dev_ws/install/iwr6843aop_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saifhs/dev_ws/build/iwr6843aop_pub/build --no-deps install_data
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifhs/dev_ws/build/iwr6843aop_pub/share/iwr6843aop_pub/hook/pythonpath_develop.dsv'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/build/iwr6843aop_pub/share/iwr6843aop_pub/hook/pythonpath_develop.sh'
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/iwr6843aop_pub' for CMake module files
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/iwr6843aop_pub' for CMake config files
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/iwr6843aop_pub/lib'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/iwr6843aop_pub/bin'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/iwr6843aop_pub/lib/pkgconfig/iwr6843aop_pub.pc'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/iwr6843aop_pub/lib/python3.10/site-packages'
+[1.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('iwr6843aop_pub', 'pythonpath')
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/hook/pythonpath.ps1'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/hook/pythonpath.dsv'
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/hook/pythonpath.sh'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/saifhs/dev_ws/install/iwr6843aop_pub/bin'
+[1.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iwr6843aop_pub)
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/package.ps1'
+[1.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/package.dsv'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/package.sh'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/package.bash'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifhs/dev_ws/install/iwr6843aop_pub/share/iwr6843aop_pub/package.zsh'
+[1.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifhs/dev_ws/install/iwr6843aop_pub/share/colcon-core/packages/iwr6843aop_pub)
+[1.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.400s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.408s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.408s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.408s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.422s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.423s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saifhs/dev_ws/install/local_setup.ps1'
+[1.424s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saifhs/dev_ws/install/_local_setup_util_ps1.py'
+[1.425s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saifhs/dev_ws/install/setup.ps1'
+[1.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saifhs/dev_ws/install/local_setup.sh'
+[1.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saifhs/dev_ws/install/_local_setup_util_sh.py'
+[1.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saifhs/dev_ws/install/setup.sh'
+[1.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saifhs/dev_ws/install/local_setup.bash'
+[1.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saifhs/dev_ws/install/setup.bash'
+[1.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saifhs/dev_ws/install/local_setup.zsh'
+[1.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saifhs/dev_ws/install/setup.zsh'

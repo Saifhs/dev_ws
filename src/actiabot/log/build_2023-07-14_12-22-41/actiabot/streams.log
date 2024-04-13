@@ -1,0 +1,69 @@
+[0.022s] Invoking command in '/home/saifhs/dev_ws/src/actiabot/build/actiabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/saifhs/dev_ws/src/actiabot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saifhs/dev_ws/src/actiabot/install/actiabot
+[0.183s] -- The C compiler identification is GNU 11.3.0
+[0.292s] -- The CXX compiler identification is GNU 11.3.0
+[0.309s] -- Detecting C compiler ABI info
+[0.430s] -- Detecting C compiler ABI info - done
+[0.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.440s] -- Detecting C compile features
+[0.441s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.559s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.571s] -- Detecting CXX compile features
+[0.572s] -- Detecting CXX compile features - done
+[0.581s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.751s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.838s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.905s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.027s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.043s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.043s] -- Configured cppcheck include dirs: 
+[1.043s] -- Configured cppcheck exclude dirs and/or files: 
+[1.053s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.053s] -- Configured cpplint exclude dirs and/or files: 
+[1.056s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.059s] -- Added test 'lint_cmake' to check CMake code style
+[1.061s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.072s] -- Added test 'uncrustify' to check C / C++ code style
+[1.072s] -- Configured uncrustify additional arguments: 
+[1.074s] -- Added test 'xmllint' to check XML markup files
+[1.078s] -- Configuring done
+[1.085s] -- Generating done
+[1.086s] -- Build files have been written to: /home/saifhs/dev_ws/src/actiabot/build/actiabot
+[1.091s] Invoked command in '/home/saifhs/dev_ws/src/actiabot/build/actiabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/saifhs/dev_ws/src/actiabot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saifhs/dev_ws/src/actiabot/install/actiabot
+[1.092s] Invoking command in '/home/saifhs/dev_ws/src/actiabot/build/actiabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/src/actiabot/build/actiabot -- -j4 -l4
+[1.132s] Invoked command in '/home/saifhs/dev_ws/src/actiabot/build/actiabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saifhs/dev_ws/src/actiabot/build/actiabot -- -j4 -l4
+[1.176s] Invoking command in '/home/saifhs/dev_ws/src/actiabot/build/actiabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saifhs/dev_ws/src/actiabot/build/actiabot
+[1.181s] -- Install configuration: ""
+[1.182s] -- Execute custom install script
+[1.182s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/config/drive_bot.rviz
+[1.189s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/config/empty.yaml
+[1.195s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/config/view_bot.rviz
+[1.203s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/description/camera.xacro
+[1.209s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/description/depth_camera.xacro
+[1.217s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/description/gazebo_control.xacro
+[1.228s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/description/inertial_macros.xacro
+[1.237s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/description/lidar.xacro
+[1.248s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/description/robot.urdf.xacro
+[1.256s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/description/robot_core.xacro
+[1.267s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/launch/launch_sim.launch.py
+[1.274s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/launch/rplidar.launch.py
+[1.281s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/launch/rsp.launch.py
+[1.290s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/worlds/empty.world
+[1.297s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/worlds/obstacles_avoidance.world
+[1.308s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/ament_index/resource_index/package_run_dependencies/actiabot
+[1.317s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/ament_index/resource_index/parent_prefix_path/actiabot
+[1.323s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/environment/ament_prefix_path.sh
+[1.333s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/environment/ament_prefix_path.dsv
+[1.340s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/environment/path.sh
+[1.349s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/environment/path.dsv
+[1.355s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/local_setup.bash
+[1.363s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/local_setup.sh
+[1.385s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/local_setup.zsh
+[1.395s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/local_setup.dsv
+[1.402s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/package.dsv
+[1.409s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/ament_index/resource_index/packages/actiabot
+[1.416s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/cmake/actiabotConfig.cmake
+[1.423s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/cmake/actiabotConfig-version.cmake
+[1.436s] -- Symlinking: /home/saifhs/dev_ws/src/actiabot/install/actiabot/share/actiabot/package.xml
+[1.447s] Invoked command in '/home/saifhs/dev_ws/src/actiabot/build/actiabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saifhs/dev_ws/src/actiabot/build/actiabot

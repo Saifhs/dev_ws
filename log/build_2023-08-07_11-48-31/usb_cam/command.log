@@ -1,0 +1,2 @@
+Invoking command in '/home/saifhs/dev_ws/build/usb_cam': /usr/bin/cmake /home/saifhs/dev_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/saifhs/dev_ws/install/usb_cam
+Invoked command in '/home/saifhs/dev_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/saifhs/dev_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/saifhs/dev_ws/install/usb_cam

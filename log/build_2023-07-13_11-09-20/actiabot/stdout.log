@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/config/empty.yaml
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/launch/rsp.launch.py
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/worlds/empty.world
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/ament_index/resource_index/package_run_dependencies/actiabot
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/ament_index/resource_index/parent_prefix_path/actiabot
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/environment/path.sh
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/environment/path.dsv
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/local_setup.bash
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/local_setup.sh
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/local_setup.zsh
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/local_setup.dsv
+-- Symlinking: /home/saifhs/dev_ws/install/actiabot/share/actiabot/package.dsv
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/ament_index/resource_index/packages/actiabot
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/cmake/actiabotConfig.cmake
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/cmake/actiabotConfig-version.cmake
+-- Up-to-date symlink: /home/saifhs/dev_ws/install/actiabot/share/actiabot/package.xml
